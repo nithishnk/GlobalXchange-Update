@@ -134,7 +134,7 @@ var update = () => {
     } = step[i];
     if (this.frame >= end) {
       complete++;
-      output += to;
+      output += to; 
     } else if (this.frame >= start) {
       if (!char || Math.random() < 0.28) {
         char = this.randomChar();
@@ -179,7 +179,5 @@ nextPhrase();
 <script type=text/javascript src=static/js/vendor.47b5e87380f6268f6664.js>
 </script>
 <script type=text/javascript src=static/js/app.0f6272ddad659fd28f4e.js></script>
-
 </body>
-
 </html>
